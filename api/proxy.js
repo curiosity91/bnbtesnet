@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   // On récupère l'URL complète demandée par ton Google Script
-  const targetUrl = 'https://api.binance.com' + req.url;
+  const targetUrl = 'https://testnet.binance.vision' + req.url;
 
   try {
     let bodyData = undefined;
